@@ -24,9 +24,6 @@
 
 /*--------------- NAVBAR--------------- */
 
-.container-main{
-    height: 300vh;
-}
 
  nav{
     position: -webkit-sticky;
@@ -197,7 +194,7 @@
 /* ----- */
 
 .container-accesories{
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     border: 1px solid black;
 }
 
@@ -214,6 +211,10 @@
     width: 60%;
 }
 /* -------- */
+.box-main-game{
+    padding-bottom: 30px;
+    background-color: #1f1f1f;
+}
 
 .big-picture-main{
     height: 600px;
@@ -226,6 +227,25 @@
 
 .title-picture-main img{
    width: 70%;
+}
+
+/* ----upcoming games on dark black background---- */
+
+.upcoming-games-section{
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+}
+
+.upcoming-games-box{
+    border: 1px solid white;
+} 
+
+.new-game>img{
+    width: 100%;
+}
+
+.margin-down{
+    margin-bottom: 15px;
 }
 
 
