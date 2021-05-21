@@ -13,8 +13,6 @@
 }
 
 
-
-
 /* BUTTONS */
 .button-big-picture{
     background-color: orangered;
@@ -25,14 +23,21 @@
 
 
 /*--------------- NAVBAR--------------- */
-/* nav{
-    border: 1px solid black;
-} */
 
 .container-main{
-    height: 200vh;
+    height: 300vh;
 }
 
+ nav{
+    position: -webkit-sticky;
+    top: 0;
+    position: sticky;
+    background-color: #fff;
+}
+
+.navbar{
+    position: sticky;
+}
 
 .supertop-title{
     background-color: black;
@@ -41,15 +46,6 @@
     color: white;
     line-height: 33px;
     padding-right: 10px;
-}
-
-
-.fixed-top {
-    position: fixed;
-    top: 33px;
-    right: 0;
-    left: 0;
-    z-index: 1030;
 }
 
 .new-collapse{
@@ -110,21 +106,17 @@
 
 .big-picture-header{
     height: 600px;
-    margin-top: 80px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: top;
     background-position: center;
     padding-top: 250px;
-    padding-left: 30px;
 }
 
 
 .box-picture{
     border: 1px solid white;
     color: white;
-
-
 }
 
 .bau{
@@ -202,6 +194,40 @@
     width: 100%;
 }
 
+/* ----- */
+
+.container-accesories{
+    padding-bottom: 40px;
+    border: 1px solid black;
+}
+
+.box-accesories-ps5{
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.box-accesories-ps5:hover{
+    border-bottom: 2px solid #0072ce;
+}
+
+.accesories-ps5>img{
+    width: 60%;
+}
+/* -------- */
+
+.big-picture-main{
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+} 
+
+.title-picture-main img{
+   width: 70%;
+}
+
 
 
 
@@ -222,10 +248,7 @@
 
 /* Media XS */
 @media only screen and (min-width: 0) and (max-width: 575px){
-    .big-picture-header{
-        padding-left: 0;
-    }
-
+    
     .title-big-picture{
         width: 300px;
     }
