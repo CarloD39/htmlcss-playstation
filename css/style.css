@@ -231,21 +231,46 @@
 
 /* ----upcoming games on dark black background---- */
 
+.box-grid{
+    padding-bottom: 50px;
+}
+
 .upcoming-games-section{
     background-color: #1f1f1f;
     color: #f5f5f5;
+    padding-bottom: 50px;
 }
 
 .upcoming-games-box{
     border: 1px solid white;
 } 
 
+.new-game{
+    cursor: pointer;
+    font-weight:600;
+}
+
 .new-game>img{
     width: 100%;
+    border-radius: 5px;
 }
 
 .margin-down{
     margin-bottom: 15px;
+}
+
+/*------- section PS4------ */
+
+.container-ps4{
+    margin-bottom: 50px;
+}
+
+.consolle-ps4>img{
+    width: 100%;
+}
+
+.ps4-accessories-console{
+    padding-bottom: 50px;
 }
 
 
