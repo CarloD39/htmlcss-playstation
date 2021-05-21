@@ -1,0 +1,269 @@
+
+/* UTILITY */
+.white-text{
+    color: white;
+}
+
+.blue-playstation{
+    background-color: #0072ce;
+}
+
+.align-center{
+    text-align: center;
+}
+
+
+
+
+/* BUTTONS */
+.button-big-picture{
+    background-color: orangered;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 8px;
+}
+
+
+/*--------------- NAVBAR--------------- */
+/* nav{
+    border: 1px solid black;
+} */
+
+.container-main{
+    height: 200vh;
+}
+
+
+.supertop-title{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    line-height: 33px;
+    padding-right: 10px;
+}
+
+
+.fixed-top {
+    position: fixed;
+    top: 33px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.new-collapse{
+    justify-content: flex-end;
+}
+
+.bg-costum-color{
+    background-color: white;
+}
+
+.navbar .navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.sony-top-bar{
+    background-color: black;
+    color: white;
+}
+
+.nuovo{
+    border: 1px solid brown;
+}
+
+.button-nav-dark{
+    border-radius: 15px;
+    padding: 0 20px;
+    font-weight: 500;
+    background-color: #363636;;
+}
+
+.nav-link .active .search{
+    padding: 0;
+}
+
+.search-nav{
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+.search-n{
+    font-size: 30px;
+}
+
+/* -------HEADER-PICTURE---------- */
+
+.box-header{
+    padding-bottom: 30px;
+}
+
+
+.big-picture-header{
+    height: 600px;
+    margin-top: 80px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+    background-position: center;
+    padding-top: 250px;
+    padding-left: 30px;
+}
+
+
+.box-picture{
+    border: 1px solid white;
+    color: white;
+
+
+}
+
+.bau{
+    border: 1px solid red;
+}
+
+.qua{
+    border: 1px solid rgb(98, 0, 255);
+}
+
+
+.title-big-picture{
+    width: 250px;
+    padding-bottom: 25px;
+}
+
+.title-big-picture img{
+    width: 100%;
+}
+
+.title-text{
+    padding-bottom: 25px;
+}
+
+.title-paragraph{
+    padding-bottom: 15px;
+}
+
+/*---------------- MAIN---------------- */
+
+.container-minigames{
+    padding-bottom: 50px;
+}
+
+.box-mini-games{
+    border-radius: 20px;
+    border: 2px #fff solid;
+    overflow: hidden;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.box-mini-games:hover{
+    border: 2px rgb(0, 0, 255, 0.5) solid;
+}
+
+.box-mini-games-inner{
+    border: 2px #fff solid;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+.box-mini-games-inner>img{
+    width: 100%;
+}
+
+/*--- ps5 section---- */
+
+.container-ps5{
+    padding-bottom: 50px;
+}
+
+.playstation5-lines p{
+    margin: 30px 0;
+}
+
+.informations-ps5{
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.box-img-ps5>img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- MEDIA QUERY------------------ */
+
+/* Media XS */
+@media only screen and (min-width: 0) and (max-width: 575px){
+    .big-picture-header{
+        padding-left: 0;
+    }
+
+    .title-big-picture{
+        width: 300px;
+    }
+
+    .container-minigames{
+        margin-top: 0;
+    }
+
+
+
+}
+
+
+/* Media SM*/
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .title-big-picture{
+        width: 300px;
+    }
+}
+
+
+
+
+/*------- Media MD -------- */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .title-big-picture{
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
