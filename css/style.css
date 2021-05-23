@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* UTILITY */
 .white-text{
@@ -10,6 +13,10 @@
 
 .align-center{
     text-align: center;
+}
+
+.section{
+    padding-bottom: 50px;
 }
 
 
@@ -49,6 +56,7 @@
     padding-right: 10px;
 }
 
+
 .new-collapse{
     justify-content: flex-end;
 }
@@ -59,11 +67,20 @@
 
 .navbar .navbar-brand{
     font-weight: bold;
+    color: #0072ce;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: bold;
+}
+
+.dropdown-toggle::after{
+    color: gray;
+}
+
+.turn-blue:hover{
+    color: #0072ce;
 }
 
 .sony-top-bar{
@@ -82,12 +99,12 @@
     background-color: #363636;;
 }
 
-.nav-link .active .search{
-    padding: 0;
+.search-lens{
+    width: 25px;
 }
 
-.search-nav{
-    font-size: 20px;
+.search-lens>img{
+    width: 100%;
 }
 
 .navbar-brand{
@@ -195,7 +212,7 @@
     width: 100%;
 }
 
-/* ----- */
+/* --Accessories ps5--- */
 
 .container-accesories{
     padding-bottom: 30px;
@@ -209,6 +226,14 @@
 
 .box-accesories-ps5:hover{
     border-bottom: 2px solid #0072ce;
+}
+
+.accesories-ps5{
+    opacity: 0.8;
+}
+
+.accesories-ps5:hover{
+    opacity: 1;
 }
 
 .accesories-ps5>img{
@@ -236,16 +261,12 @@
 /* ----upcoming games on dark black background---- */
 
 .box-grid{
-    padding-bottom: 50px;
-}
-
-.upcoming-games-section{
     background-color: #1f1f1f;
     color: #f5f5f5;
     padding-bottom: 80px;
 }
 
-.upcoming-games-box{
+.box-grid{
     border: 1px solid white;
 } 
 
@@ -280,16 +301,12 @@
 
 /*-- playstation-plus section --*/
 
-.section-plus{
-    padding-bottom: 50px;
-}
-
 .box-playstation-plus{
     background-color: #8c8080;
 }
 
 .playstation-plus-logo>img{
-    width: 80%;
+    width: 70%;
 }
 
 .playstation-plus-img>img{
@@ -297,11 +314,76 @@
 }
 
 /* big boxes discount */
-
+.section{
+    padding-bottom: 50px;
+}
 
 .offers-picture>img{
     width: 100%;
 }
+
+
+/* -------- */
+.box-playstation-now{
+    background-color: #0a0e4b;
+    padding: 20px 0;
+}
+
+.playstation-now-logo>img{
+    width: 70%;
+}
+
+.playstation-now-img>img{
+    width: 100%;
+}
+
+/* -----social section----- */
+
+.social-logo>img{
+    width: 90%;
+}
+
+
+/* -----footer-section----- */
+
+
+.footer-section{
+    background-color: #00439c;
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+.navbar-brand-footer{
+    color: white;
+    font-size: 90px;
+}
+
+.logo-footer>img{
+    width: 100%;
+}
+
+.location{
+    margin-bottom: 20px;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 20px 0 0;
+}
+
+.footer ul li{
+    margin-bottom: 8px;
+}
+
+.footer p{
+    line-height: 25px;
+}
+
+.logo-footer{
+    margin-bottom: 8px;
+}
+
+
 
 
 
@@ -338,7 +420,15 @@
     }
 
     .offers-picture{
-        margin-bottom: 25px;
+        margin-bottom: 30px;
+    }
+
+    .social-logo{
+        margin-bottom: 30px;
+    }
+
+    .footer ul{
+        padding-left: 15px;
     }
 
 
@@ -357,7 +447,11 @@
     }
 
     .offers-picture{
-        margin-bottom: 25px;
+        margin-bottom: 30px;
+    }
+
+    .footer ul{
+        padding-left: 15px;
     }
 
 
