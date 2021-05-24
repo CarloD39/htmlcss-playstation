@@ -1,8 +1,13 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+/* UTILITY */
+.section{
+    padding-bottom: 50px;
 }
 
-/* UTILITY */
+.sub{
+    font-size: 18px;
+    color: gray;
+}
+
 .white-text{
     color: white;
 }
@@ -15,19 +20,53 @@ body{
     text-align: center;
 }
 
-.section{
-    padding-bottom: 50px;
+.title-padding{
+    padding-bottom: 25px;
+}
+
+.paragraph-padding{
+    padding-bottom: 15px;
 }
 
 
 /* BUTTONS */
-.button-big-picture{
-    background-color: orangered;
-    border-radius: 15px;
-    border: none;
-    padding: 5px 8px;
+button{
+    font-weight: 700;
 }
 
+.no-border{
+    border: none;
+}
+
+.nav-button{
+    background-color: #363636;
+    padding: 10px 12px;
+    border-radius: 35px;
+}
+
+.button{
+    padding: 5px 8px;
+    border-radius: 15px;
+}
+
+.purchase{
+    background-color: orangered;
+}
+
+.informations-explore-buttons{
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.explore-plus{
+    background-color: rgba(220,222,224,.9);
+    color: #0072ce;
+}
+
+.explore-now{
+    background-color: white;
+    color: #19191f;
+}
 
 /*--------------- NAVBAR--------------- */
 
@@ -36,8 +75,8 @@ body{
     position: -webkit-sticky;
     top: 0;
     position: sticky;
-    background-color: #fff;
-    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    z-index: 1003;
 }
 
 .navbar{
@@ -53,11 +92,9 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: white;
     line-height: 33px;
     padding-right: 10px;
 }
-
 
 .new-collapse{
     justify-content: flex-end;
@@ -93,21 +130,8 @@ body{
     padding-right: 15px;
 }
 
-.search-lens{
-    margin-left: 20px;
-}
-
 .enter-button{
     margin-left: 10px;
-}
-
-.sony-top-bar{
-    background-color: black;
-    color: white;
-}
-
-.nuovo{
-    border: 1px solid brown;
 }
 
 .button-nav-dark{
@@ -118,7 +142,9 @@ body{
 }
 
 .search-lens{
-    width: 22px;
+    width: 24px;
+    cursor: pointer;
+    margin-left: 20px;
 }
 
 .search-lens>img{
@@ -129,16 +155,11 @@ body{
     font-size: 35px;
 }
 
-.search-n{
-    font-size: 30px;
-}
-
 /* -------HEADER-PICTURE---------- */
 
 .box-header{
     padding-bottom: 30px;
 }
-
 
 .big-picture-header{
     height: 600px;
@@ -149,21 +170,6 @@ body{
     padding-top: 250px;
 }
 
-
-.box-picture{
-    border: 1px solid white;
-    color: white;
-}
-
-.bau{
-    border: 1px solid red;
-}
-
-.qua{
-    border: 1px solid rgb(98, 0, 255);
-}
-
-
 .title-big-picture{
     width: 250px;
     padding-bottom: 25px;
@@ -173,19 +179,7 @@ body{
     width: 100%;
 }
 
-.title-text{
-    padding-bottom: 25px;
-}
-
-.title-paragraph{
-    padding-bottom: 15px;
-}
-
 /*---------------- MAIN---------------- */
-
-.container-minigames{
-    padding-bottom: 50px;
-}
 
 .box-mini-games{
     border-radius: 20px;
@@ -205,25 +199,17 @@ body{
     border-radius: 20px;
 }
 
-
 .box-mini-games-inner>img{
     width: 100%;
 }
 
-/*--- ps5 section---- */
-
-.container-ps5{
-    padding-bottom: 50px;
+#blue-text{
+    color: #0072ce;
 }
 
+/*--- ps5 section---- */
 .playstation5-lines p{
     margin: 30px 0;
-}
-
-.informations-ps5{
-    border-radius: 20px;
-    border: none;
-    padding: 5px 10px;
 }
 
 .box-img-ps5>img{
@@ -257,7 +243,7 @@ body{
 .accesories-ps5>img{
     width: 60%;
 }
-/* -------- */
+/* --It Takes two -plus-- */
 .box-main-game{
     padding-bottom: 30px;
     background-color: #1f1f1f;
@@ -269,8 +255,13 @@ body{
     background-position: top;
     background-position: center;
     background-size: cover;
-    padding-top: 70px;
+    padding: 30px;
+    opacity: 0.8;
 } 
+
+.box-it-takes-two{
+    color: rgb(241, 238, 238);
+}
 
 .title-picture-main img{
    width: 70%;
@@ -283,10 +274,6 @@ body{
     color: #f5f5f5;
     padding-bottom: 80px;
 }
-
-.box-grid{
-    border: 1px solid white;
-} 
 
 .new-game{
     cursor: pointer;
@@ -302,23 +289,12 @@ body{
     margin-bottom: 15px;
 }
 
-/*------- section PS4------ */
-
-.container-ps4{
-    margin-bottom: 50px;
-}
-
+/*-- PS4 consolle and accesories -*/
 .consolle-ps4>img{
     width: 100%;
 }
 
-.ps4-accessories-console{
-    padding-bottom: 50px;
-}
-
-
 /*-- playstation-plus section --*/
-
 .box-playstation-plus{
     background-color: #8c8080;
 }
@@ -332,19 +308,14 @@ body{
 }
 
 /* big boxes discount */
-.section{
-    padding-bottom: 50px;
-}
-
 .offers-picture>img{
     width: 100%;
 }
 
-
-/* -------- */
+/* ----playstation-now---- */
 .box-playstation-now{
     background-color: #0a0e4b;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .playstation-now-logo>img{
@@ -358,12 +329,11 @@ body{
 /* -----social section----- */
 
 .social-logo>img{
-    width: 90%;
+    width: 100%;
 }
 
 
 /* -----footer-section----- */
-
 
 .footer-section{
     background-color: #00439c;
@@ -372,7 +342,6 @@ body{
 }
 
 .navbar-brand-footer{
-    color: white;
     font-size: 90px;
 }
 
@@ -436,6 +405,14 @@ body{
         padding-left: 15px;
     }
 
+    .accesories-ps5>img{
+        width: 100%;
+    }
+
+    .box-playstation-plus{
+        padding: 40px 0;
+    }
+
 }
 
 
@@ -455,6 +432,14 @@ body{
 
     .footer ul{
         padding-left: 15px;
+    }
+
+    .accesories-ps5>img{
+        width: 100%;
+    }
+
+    .box-playstation-plus{
+        padding: 30px 0;
     }
 
 }
