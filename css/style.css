@@ -225,7 +225,6 @@ button{
 
 .container-accesories{
     padding-bottom: 30px;
-    border: 1px solid black;
 }
 
 .box-accesories-ps5{
@@ -334,7 +333,7 @@ button{
 
 /* -----social section----- */
 
-.social-logo>img{
+.social-logo a>img{
     width: 100%;
 }
 
