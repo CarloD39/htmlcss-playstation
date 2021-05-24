@@ -68,6 +68,16 @@ button{
     color: #19191f;
 }
 
+.supertop-title{
+    background-color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 33px;
+    padding-right: 10px;
+}
+
 /*--------------- NAVBAR--------------- */
 
 
@@ -85,15 +95,6 @@ button{
 
 .align-items{
     align-items: center;
-}
-
-.supertop-title{
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    line-height: 33px;
-    padding-right: 10px;
 }
 
 .new-collapse{
@@ -114,7 +115,7 @@ button{
     font-weight: bold;
 }
 
-.dropdown-togle-2::after{
+.main-menu::after{
     color: gray;
     display: inline-block;
     margin-left: .255em;
@@ -123,6 +124,10 @@ button{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 12px;
+}
+
+.main-menu:hover::after{
+    color: #0072ce !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -243,6 +248,7 @@ button{
 .accesories-ps5>img{
     width: 60%;
 }
+
 /* --It Takes two -plus-- */
 .box-main-game{
     padding-bottom: 30px;
@@ -300,7 +306,7 @@ button{
 }
 
 .playstation-plus-logo>img{
-    width: 70%;
+    width: 60%;
 }
 
 .playstation-plus-img>img{
@@ -346,7 +352,7 @@ button{
 }
 
 .logo-footer>img{
-    width: 100%;
+    width: 90%;
 }
 
 .location{
