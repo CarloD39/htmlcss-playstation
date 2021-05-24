@@ -37,6 +37,7 @@ body{
     top: 0;
     position: sticky;
     background-color: #fff;
+    border: 1px solid black;
 }
 
 .navbar{
@@ -51,6 +52,7 @@ body{
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     color: white;
     line-height: 33px;
     padding-right: 10px;
@@ -71,16 +73,32 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: #1f1f1f;
     font-weight: bold;
 }
 
-.dropdown-toggle::after{
+.dropdown-togle-2::after{
     color: gray;
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: middle;
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
 }
 
-.turn-blue:hover{
-    color: #0072ce;
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-lens{
+    margin-left: 20px;
+}
+
+.enter-button{
+    margin-left: 10px;
 }
 
 .sony-top-bar{
@@ -100,7 +118,7 @@ body{
 }
 
 .search-lens{
-    width: 25px;
+    width: 22px;
 }
 
 .search-lens>img{
@@ -379,27 +397,14 @@ body{
     line-height: 25px;
 }
 
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
 .logo-footer{
     margin-bottom: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*---------- MEDIA QUERY------------------ */
@@ -431,8 +436,6 @@ body{
         padding-left: 15px;
     }
 
-
-
 }
 
 
@@ -454,11 +457,7 @@ body{
         padding-left: 15px;
     }
 
-
-
 }
-
-
 
 
 /*------- Media MD -------- */
