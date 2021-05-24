@@ -313,7 +313,7 @@ button{
 }
 
 /* big boxes discount */
-.offers-picture>img{
+.offers-picture a>img{
     width: 100%;
 }
 
