@@ -224,28 +224,28 @@ button{
 
 /* --Accessories ps5--- */
 
-.container-accesories{
+.container-accessories{
     padding-bottom: 30px;
 }
 
-.box-accesories-ps5{
+.box-accessories-ps5{
     border-bottom: 2px solid #fff;
     cursor: pointer;
 }
 
-.box-accesories-ps5:hover{
+.box-accessories-ps5:hover{
     border-bottom: 2px solid #0072ce;
 }
 
-.accesories-ps5{
+.accessories-ps5{
     opacity: 0.8;
 }
 
-.accesories-ps5:hover{
+.accessories-ps5:hover{
     opacity: 1;
 }
 
-.accesories-ps5>img{
+.accessories-ps5>img{
     width: 60%;
 }
 
@@ -295,7 +295,7 @@ button{
     margin-bottom: 15px;
 }
 
-/*-- PS4 consolle and accesories -*/
+/*-- PS4 consolle and accessories -*/
 .consolle-ps4>img{
     width: 100%;
 }
@@ -411,7 +411,7 @@ button{
         padding-left: 15px;
     }
 
-    .accesories-ps5>img{
+    .accessories-ps5>img{
         width: 100%;
     }
 
@@ -440,7 +440,7 @@ button{
         padding-left: 15px;
     }
 
-    .accesories-ps5>img{
+    .accessories-ps5>img{
         width: 100%;
     }
 

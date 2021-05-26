@@ -1,0 +1,1 @@
+document.getElementById('js-title').innerHTML = 'Seguici sui social media';
